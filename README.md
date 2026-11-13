@@ -1,10 +1,10 @@
 # Google Ads MCP Server
 
-[![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.adkit%2Fgoogle-ads-7c3aed)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.adkit/google-ads) [![Setup guide](https://img.shields.io/badge/setup_guide-adkit.so-7c3aed)](https://adkit.so/features/ads-mcp/google) [![License: MIT](https://img.shields.io/badge/license-MIT-16a34a)](./LICENSE)
+[![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.adkit%2Fgoogle--ads-7c3aed)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.adkit/google-ads) [![Setup guide](https://img.shields.io/badge/setup_guide-adkit.so-7c3aed)](https://adkit.so/features/ads-mcp/google) [![License: MIT](https://img.shields.io/badge/license-MIT-16a34a)](./LICENSE)
 
 Connect Google Ads to Claude, ChatGPT, Cursor, Codex or any AI app that supports MCP. AdKit hosts the server, so you only add an address to your AI app.
 
-- **MCP address:** `https://mcp.adkit.so/api/mcp/google-ads`
+- **MCP address:** `https://mcp.adkit.so/google-ads`
 - **Website:** [Google Ads MCP by AdKit](https://adkit.so/features/ads-mcp/google)
 
 Every change is saved as a draft first, so your AI can't spend money on its own. Nothing goes live on Google Ads until you approve it.
@@ -37,12 +37,12 @@ There are two ways to connect:
 ### Claude (web and desktop)
 
 - **All platforms:** [install AdKit from the Claude directory](https://claude.ai/directory/adkit), in one click.
-- **Google Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/api/mcp/google-ads`.
+- **Google Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/google-ads`.
 
 ### ChatGPT
 
 - **All platforms:** [add the AdKit app](https://chatgpt.com/apps/adkit/asdk_app_6a1e848decdc8191a4974b315c51661f), in one click.
-- **Google Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/api/mcp/google-ads`.
+- **Google Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/google-ads`.
 
 ### Claude Code
 
@@ -56,7 +56,7 @@ As a plugin:
 Or as an MCP server only:
 
 ```
-claude mcp add --transport http adkit-google-ads https://mcp.adkit.so/api/mcp/google-ads
+claude mcp add --transport http adkit-google-ads https://mcp.adkit.so/google-ads
 ```
 
 ### Gemini CLI
@@ -73,7 +73,7 @@ Add to `~/.cursor/mcp.json`:
 {
   "mcpServers": {
     "adkit-google-ads": {
-      "url": "https://mcp.adkit.so/api/mcp/google-ads"
+      "url": "https://mcp.adkit.so/google-ads"
     }
   }
 }
@@ -85,7 +85,7 @@ Add to `~/.codex/config.toml`:
 
 ```toml
 [mcp_servers.adkit-google-ads]
-url = "https://mcp.adkit.so/api/mcp/google-ads"
+url = "https://mcp.adkit.so/google-ads"
 ```
 
 In Claude Code, Gemini CLI, Cursor and Codex, use `https://mcp.adkit.so` instead to connect all platforms.

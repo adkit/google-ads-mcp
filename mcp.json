@@ -3,7 +3,7 @@
   "mcpServers": {
     "adkit-google-ads": {
       "type": "streamable-http",
-      "url": "https://mcp.adkit.so/api/mcp/google-ads"
+      "url": "https://mcp.adkit.so/google-ads"
     }
   }
 }
