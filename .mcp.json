@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "adkit-google-ads": {
+      "type": "http",
+      "url": "https://mcp.adkit.so/api/mcp/google-ads"
+    }
+  }
+}

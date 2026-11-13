@@ -1,0 +1,11 @@
+{
+  "name": "adkit-google-ads",
+  "version": "1.0.0",
+  "description": "Google Ads MCP server by AdKit: Search, Display, Demand Gen and Performance Max campaigns, keywords, negative keywords, search terms and reports. Every change is saved as a draft until you approve it.",
+  "mcpServers": {
+    "adkit-google-ads": {
+      "httpUrl": "https://mcp.adkit.so/api/mcp/google-ads",
+      "description": "Hosted AdKit Google Ads MCP server. Signs in with OAuth in the browser on first use; nothing to install."
+    }
+  }
+}

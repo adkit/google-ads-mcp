@@ -1,0 +1,11 @@
+# Privacy
+
+The Google Ads MCP server is run by AdKit. It connects only to the Google Ads accounts you authorize.
+
+To do what you ask, it reads and changes ad account data: campaign settings, creatives and performance metrics. Requests go through AdKit's server at https://mcp.adkit.so.
+
+Your Google Ads sign-in is handled by Google Ads's own OAuth flow. AdKit stores the account identifiers, drafts and operation records it needs to run the service.
+
+Full privacy policy: https://adkit.so/legal/privacy
+
+Contact: contact@adkit.so

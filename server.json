@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.adkit/google-ads",
+  "title": "Google Ads MCP Server by AdKit",
+  "description": "Google Ads MCP server: run Search, Display, Demand Gen and PMax campaigns from AI.",
+  "version": "1.0.0",
+  "websiteUrl": "https://adkit.so/features/ads-mcp/google",
+  "repository": {
+    "url": "https://github.com/adkit/google-ads-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.adkit.so/api/mcp/google-ads"
+    }
+  ]
+}
